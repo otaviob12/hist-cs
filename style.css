@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background-color: black; 
+    text-align: center;
+    padding-top: 40px;
+    color: white; 
+    height: 150px;
+}
+header h1{
+    font-size: 3em;
+}
+header p{
+    font-size: 1.3em;
+
+}
+main{
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+main #h02{
+    padding-top: 30px;
+}
+main img{
+    display: inline-block;
+    margin: auto;
+}
+#cs16{
+    display: inline-block;
+    width: 40%;
+}
+#csgo{
+    width: 53.34%;
+}
+
+div.video > iframe{
+    display: block;
+    margin: auto;
+    top: 5%;
+    left: 5%;
+    
+}
+#simple{
+    display: block;
+}
+a{
+    color: black; 
+    font-weight: bold;
+}
