@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
 @media screen and (max-width:600px){
-    /* div.video > iframe{
-        width:360px; 
-        height:315px;
-    } */
+    
+    header h1{
+        font-size: 2em;
+    }
+    header p{
+        font-size: 17px;
+    }
     #simple{
         width: 360px;
         height: 200px;
