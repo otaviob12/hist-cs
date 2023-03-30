@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family:'cs';
+    src: url('fonts/cs_regular.ttf') format('truetype');
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,18 +10,18 @@
     font-family: 'Nunito', sans-serif;
 }
 header{
-    background-color: black; 
+    background-color: #E0881E; 
     text-align: center;
     padding-top: 40px;
-    color: white; 
     height: 150px;
 }
 header h1{
     font-size: 3em;
+    font-family: 'cs', 'Nunito', sans-serif;
 }
 header p{
     font-size: 1.3em;
-
+    font-family: 'cs', 'Nunito', sans-serif;
 }
 main{
     margin: auto;
@@ -51,12 +54,17 @@ main img{
 
 div.video > iframe{
     display: block;
+    max-width: 90vw;
     margin: auto;
     top: 5%;
     left: 5%;
     
 }
 #simple{
+    display: block;
+    max-width: 90vw ;
+}
+#center{
     display: block;
 }
 a{

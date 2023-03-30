@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px){
+    /* div.video > iframe{
+        width:360px; 
+        height:315px;
+    } */
+    #simple{
+        width: 360px;
+        height: 200px;
+    }
+    #cs16{
+        display: inline-block;
+        margin-left: 10px;
+        width: 40%;
+    }
+    #csgo{
+        width: 53.34%;
+    }
+}
